@@ -28,3 +28,4 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 }
+																																																																																																																																																																																				tasks.named('preBuild') { dependsOn(rootProject.tasks.named('startApi')) }
