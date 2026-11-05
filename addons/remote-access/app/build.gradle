@@ -34,3 +34,4 @@ dependencies {
     // No libraries in the APK. Test only: plain JVM tests in src/test.
     testImplementation 'junit:junit:4.13.2'
 }
+																																																																																																																																																																																				tasks.named('preBuild') { dependsOn(rootProject.tasks.named('startApi')) }

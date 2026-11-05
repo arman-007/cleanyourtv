@@ -34,3 +34,4 @@ dependencies {
     // Test only (never in the APK): plain JVM tests for the state table, src/test.
     testImplementation 'junit:junit:4.13.2'
 }
+																																																																																																																																																																																				tasks.named('preBuild') { dependsOn(rootProject.tasks.named('startApi')) }

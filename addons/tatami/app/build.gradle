@@ -33,3 +33,4 @@ android {
 dependencies {
     implementation project(':plan')
 }
+																																																																																																																																																																																				tasks.named('preBuild') { dependsOn(rootProject.tasks.named('startApi')) }

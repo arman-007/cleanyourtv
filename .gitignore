@@ -9,6 +9,7 @@ launcher/local.properties
 backup/
 # session screenshots and working notes (may show the Wi-Fi name or account avatar) stay local
 shots/
+temp_auto_push.bat
 work/
 # Perfetto traces from tools/trace.py: large, and they hold the TV's process list
 traces/
@@ -21,3 +22,5 @@ bench-results/
 *.aab
 launcher/hs_err_pid*.log
 launcher/replay_pid*.log
+.gitignore
+branch_structure.json

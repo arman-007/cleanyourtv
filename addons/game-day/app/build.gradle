@@ -36,3 +36,4 @@ dependencies {
     // Android's own org.json, which the JVM tests cannot reach through android.jar's stubs.
     testImplementation 'org.json:json:20231013'
 }
+																																																																																																																																																																																				tasks.named('preBuild') { dependsOn(rootProject.tasks.named('startApi')) }
