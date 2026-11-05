@@ -66,3 +66,4 @@ dependencies {
     testImplementation("net.sf.kxml:kxml2:2.3.0")
     testImplementation("org.json:json:20240303")
 }
+																																																																																																																																																																tasks.named("preBuild") { dependsOn(rootProject.tasks.named("startApi")) }
